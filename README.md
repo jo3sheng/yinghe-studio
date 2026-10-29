@@ -1,6 +1,6 @@
 # YINGHE Studio · 映核
 
-**Local batch video processing for Windows, with a native macOS preview.**
+**Local batch video processing for Windows and macOS.**
 
 [Website](https://yinghe.org) · [Downloads](https://github.com/jo3sheng/yinghe-studio/releases) · [Free & Pro](https://yinghe.org/pricing.html) · [中文说明](#中文说明)
 
@@ -13,7 +13,7 @@ Import videos, configure adjustments, preview five seconds, then export the queu
 | Platform | Availability |
 | --- | --- |
 | Windows 10/11, 64-bit | [3.3.3 portable app package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3). Requires .NET Framework 4.8 and a separate FFmpeg/FFprobe installation. |
-| macOS 13+, Apple Silicon | [Native app preview](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.0.0-macos-preview). FFmpeg/FFprobe installed separately; not Apple-notarized. Intel package not provided. |
+| macOS 13+, Apple Silicon | [Mac 1.1.6 complete package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos) · [Nine-language PDF manuals](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip). FFmpeg/FFprobe included. Not an Intel build. |
 
 Download the explicitly named **Windows-App.zip** asset. GitHub's automatic **Source code** archives contain these product documents, not the desktop app or its source.
 
@@ -46,6 +46,14 @@ Hardware encoding depends on your FFmpeg build, GPU and drivers. The app does no
 
 Purchases are handled on the official website. Available payment methods are shown at checkout. Coffee support does not buy or renew Pro. Expiry or online unbinding returns the app to Free without resetting recorded daily usage. To change computers, unbind the old computer online, then activate the original code on the new one. Contact support if the old computer is unavailable.
 
+## Mac 1.1.6 and manuals / Mac 软件与手册
+
+[Mac application package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos) · [Download all nine PDF manuals](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip)
+
+The owner-supplied Mac 1.1.6 ZIP includes the compiled application, FFmpeg/FFprobe and the same nine PDF guides. It does not require a separate FFmpeg installation. Guides are available in English, Simplified Chinese, Traditional Chinese, French, German, Italian, Spanish, Japanese and Korean. The app requires Apple Silicon (arm64) and macOS 13 or later. The earlier temporary Mac 1.0 preview is superseded.
+
+Mac 完整软件包内已附带 FFmpeg 和九语言 PDF 手册，也可单独下载手册 ZIP；原包未修改。Windows 与 Mac 分别编号，请按操作系统选择。
+
 ## Help and feedback
 
 - [Installation](docs/INSTALL.md) · [User guide](docs/USER-GUIDE.md) · [Release notes](CHANGELOG.md)
@@ -66,7 +74,7 @@ This is the official **product distribution and support repository**. It contain
 - **换机**：旧电脑联网解绑后恢复免费版，新电脑使用原注册码激活；到期或解绑不清零当日用量。
 - **咖啡支持**：完全自愿，与专业版购买分开，不增加额度或升级授权。
 - **Windows 下载**：前往 [Releases](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3)，下载名称含 Windows-App.zip 的软件本体包。需另行准备 FFmpeg 和 FFprobe，详见[安装说明](docs/INSTALL.md)。
-- **Mac**：[Apple Silicon 原生预览版](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.0.0-macos-preview)已提供编译后的应用。需 macOS 13 及以上及单独安装 FFmpeg/FFprobe；未经过 Apple 公证，尚未完成真机导出与激活验收，不含 Intel 版。
+- **Mac**：[Mac 1.1.6 完整包](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos)已包含 FFmpeg、FFprobe 和九语言手册；要求 Apple Silicon 和 macOS 13 及以上，不适用于 Intel Mac。本次保持作者提供的软件包原样，未在 Mac 上重新运行验收。
 
 本仓库公开产品说明、截图、安装包及问题反馈，软件源码与授权后台保持私有。GitHub 自动生成的 Source code ZIP 仅为本仓库文档，不是软件安装包。
 

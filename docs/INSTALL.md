@@ -24,8 +24,14 @@ Free works without registration. Pro activation requires internet; routine proce
 
 此公开包不附带 FFmpeg，不会把授权后台、注册码、个人设置或测试日志放入安装包。不要将不同 FFmpeg 版本的文件混用。
 
-## macOS
+## macOS 1.1.6 complete package
 
-An Apple Silicon (arm64) native preview is available at https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.0.0-macos-preview. Requires macOS 13 or later. Download and extract the named macOS-arm64-preview.zip to obtain YINGHE Studio.app. Install FFmpeg and FFprobe separately; existing Homebrew users can use `brew install ffmpeg`. This build passed compilation, package checks and a basic startup check. It is ad-hoc signed, not Apple Developer ID signed or notarized. macOS may block opening it. Full interactive export and activation acceptance is pending; no Intel package is included. The private source archive is not a customer download.
+1. Use an Apple Silicon Mac (arm64), macOS 13 or later. This ZIP does not support Intel Macs.
+2. Download **YINGHE-Studio-1.1.6-MAC.zip** from [the Mac release](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos).
+3. Extract the complete ZIP. It contains **YINGHE Studio.app** and a **Manuals** folder. Keep the application's Contents/Resources intact.
+4. Open the app and consult the version-specific PDF guide. FFmpeg and FFprobe are already bundled; a separate installation is not required.
+5. The [nine-language manuals ZIP](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip) provides the same PDFs independently of the software download.
 
-Mac 预览版需 Apple Silicon、macOS 13 及以上，另行准备 FFmpeg 与 FFprobe。下载的是编译后的 .app，不是源码。未经过 Apple 公证，真机导出和激活流程尚待完整验收。
+The ZIP is redistributed unchanged as supplied by the owner. This upload check verified archive integrity, arm64 executable format/permissions and PDF readability on Windows; it did not independently verify Apple Developer ID signing, notarization or runtime behaviour on a Mac.
+
+Mac 1.1.6 需 Apple Silicon 和 macOS 13 及以上。完整解压后可见 YINGHE Studio.app 与 Manuals 文件夹；FFmpeg、FFprobe 已内置，无需另外安装。请按对应语言的 PDF 手册操作。本次原样上传，不宣称在 Mac 上重新复测或验证 Apple 公证状态。

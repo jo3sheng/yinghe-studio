@@ -17,3 +17,11 @@ The public lightweight package contains the application and user documents. FFmp
 ## macOS 1.0 preview — Apple Silicon · 2026-10-29
 
 Native SwiftUI app compiled and packaged on a Mac runner. Corrected resource bundle placement; package signature layout and basic startup checks passed. FFmpeg/FFprobe are separate dependencies. This is an unnotarized arm64 preview; full interactive media and activation acceptance is pending. No application source is published.
+
+## macOS 1.1.6 — owner-supplied distribution · 2026-10-29
+
+- Published the original Mac ZIP without changing its contents.
+- Includes the compiled app, FFmpeg/FFprobe and nine PDF user guides.
+- Separate nine-language PDF ZIP and SHA-256 checksums provided.
+- Requires macOS 13+ and Apple Silicon; the earlier temporary 1.0 preview is superseded.
+- No application source, backend or private configuration is published. This entry records distribution, not a claim that the app was re-tested on a Mac.
