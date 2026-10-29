@@ -1,31 +1,24 @@
-# Release notes / 更新日志
+# Release notes / 更新记录
 
-## 3.3.3 — Windows · 2026-10-29
+| Platform / 平台 | Current version / 当前版本 | Downloads / 下载 |
+| --- | --- | --- |
+| Windows | **3.3.3** | [Complete package / 完整包](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3) |
+| Mac · Apple Silicon | **1.1.6** | [Complete package and manuals / 完整包与手册](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos) |
 
-- Color sliders and numeric fields stay synchronized.
-- Presets update visible values; manual edits select Custom.
-- Exposure, highlights, shadows, vibrance and green/magenta tint controls.
-- Natural, Portrait, Vintage, Faded film and High contrast presets.
-- Reset individual controls or the full color configuration.
-- Five-second color preview does not consume the daily export allowance.
-- Existing saved color settings migrate to the visible control values; appearance may differ from older releases.
+Website / 官网：**[yinghe.org](https://yinghe.org)**
 
-新增调色滑块与数值双向同步、曝光、高光、阴影、自然饱和度、绿／洋红控制及多个预设；支持单项和全部重置，五秒调色预览不扣导出额度。
+## Windows 3.3.3
 
-The public lightweight package contains the application and user documents. FFmpeg/FFprobe are installed separately. macOS release availability is tracked separately.
+- Color sliders and numeric fields stay synchronized. / 调色滑块与数值双向同步。
+- Presets populate visible values; manual edits switch to Custom. / 预设更新可见数值，手动调整切换为自定义。
+- Exposure, highlights, shadows, vibrance and green/magenta tint controls. / 支持曝光、高光、阴影、自然饱和度和绿／洋红偏色。
+- Individual and full color reset, plus a five-second color preview. / 支持单项与全部复位，以及五秒调色预览。
+- Complete portable ZIP includes FFmpeg, FFprobe, required DLLs and the user guide. / 完整便携包已附带运行组件和使用说明。
 
-## macOS 1.0 preview — Apple Silicon · 2026-10-29
+## Mac 1.1.6
 
-Native SwiftUI app compiled and packaged on a Mac runner. Corrected resource bundle placement; package signature layout and basic startup checks passed. FFmpeg/FFprobe are separate dependencies. This is an unnotarized arm64 preview; full interactive media and activation acceptance is pending. No application source is published.
+- Native Mac application for Apple Silicon and macOS 13+. / 适用于 Apple Silicon、macOS 13 及以上的 Mac 原生应用。
+- Complete ZIP includes FFmpeg, FFprobe and nine PDF guides. / 完整包内置 FFmpeg、FFprobe 与九语言 PDF 手册。
+- Manuals also available as a separate download. / 手册另提供独立 ZIP 下载。
 
-## macOS 1.1.6 — owner-supplied distribution · 2026-10-29
-
-- Published the original Mac ZIP without changing its contents.
-- Includes the compiled app, FFmpeg/FFprobe and nine PDF user guides.
-- Separate nine-language PDF ZIP and SHA-256 checksums provided.
-- Requires macOS 13+ and Apple Silicon; the earlier temporary 1.0 preview is superseded.
-- No application source, backend or private configuration is published. This entry records distribution, not a claim that the app was re-tested on a Mac.
-
-## Windows 3.3.3 complete distribution update — 2026-10-29
-
-Published the owner-specified YINGHE-Studio-3.3.3-Windows.zip and its original .sha256 file unchanged. This complete package includes FFmpeg, FFprobe, required DLLs, user documentation and third-party notices/licenses, replacing the temporary Windows-App lightweight asset. This is a distribution update, not a claim of a new feature build or new full media regression. Mac remains a separate 1.1.6 download.
+The earlier temporary Mac 1.0 preview has been withdrawn from the public download list. / 早期临时 Mac 1.0 预览版已从公开下载列表撤下。

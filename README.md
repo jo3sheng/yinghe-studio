@@ -1,81 +1,85 @@
-# YINGHE Studio · 映核
+<p align="center"><img src="assets/yinghe-mark.png" alt="YINGHE" width="72"></p>
 
-**Local batch video processing for Windows and macOS.**
+<h1 align="center">YINGHE Studio · 映核</h1>
 
-[Website](https://yinghe.org) · [Downloads](https://github.com/jo3sheng/yinghe-studio/releases) · [Free & Pro](https://yinghe.org/pricing.html) · [中文说明](#中文说明)
+<p align="center">Local batch video processing for Windows and Mac.<br>本地批量处理视频，减少重复操作。</p>
 
-![YINGHE Studio workspace](assets/workspace-en.jpg)
+<p align="center"><a href="https://yinghe.org"><strong>Official website · 官网：yinghe.org</strong></a><br><a href="https://yinghe.org/pricing.html">Free & Pro · 版本与价格</a> · <a href="https://yinghe.org/support.php">Buy a coffee · 请我喝杯咖啡</a> · <a href="https://github.com/jo3sheng/yinghe-studio/issues">Feedback · 问题反馈</a></p>
 
-Import videos, configure adjustments, preview five seconds, then export the queue. Each input produces its own output. Video processing runs locally.
+## Download / 下载
 
-## Download
-
-| Platform | Availability |
-| --- | --- |
-| Windows 10/11, 64-bit | [3.3.3 complete portable package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3). Requires .NET Framework 4.8; FFmpeg/FFprobe and required DLLs are included. |
-| macOS 13+, Apple Silicon | [Mac 1.1.6 complete package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos) · [Nine-language PDF manuals](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip). FFmpeg/FFprobe included. Not an Intel build. |
-
-Download the explicitly named **YINGHE-Studio-3.3.3-Windows.zip** asset. GitHub's automatic **Source code** archives contain these product documents, not the desktop app or its source.
-
-The complete Windows package includes FFmpeg and FFprobe. Extract the whole ZIP and keep the ffmpeg folder beside the app; a separate FFmpeg installation is not required. Follow the [installation guide](docs/INSTALL.md). The current executable is not Authenticode signed; Windows may show a publisher or reputation warning. Compare the download with the release's SHA-256 checksum. A matching checksum confirms integrity, not publisher trust.
-
-## Features
-
-- Sequential batch processing, folder import and unfinished queue recovery.
-- Portrait, landscape, square and custom dimensions; fit, fill, crop, rotation and flips.
-- Trim, playback speed, frame removal, animated zoom and image/video intros and outros.
-- Color sliders and numeric inputs, presets, exposure, highlights, shadows, vibrance and tint.
-- Image watermarks, picture in picture, source audio and looping background music.
-- H.264/AAC MP4 export; CPU and compatible NVIDIA/Intel encoding options.
-- English, 简体中文, 繁體中文, Français, 日本語, Español, Deutsch, Русский and 한국어.
-
-Hardware encoding depends on your FFmpeg build, GPU and drivers. The app does not provide a general multitrack timeline, subtitle editor or LUT manager.
-
-## Free and Pro
-
-| | Free | Pro |
+| Platform / 平台 | Version / 版本 | Direct download / 直接下载 |
 | --- | --- | --- |
-| Registration | No registration or free activation code required | Purchased registration code |
-| Exports | 10 successful full exports per local day | No daily export cap while the license is valid |
-| Preview, failed or cancelled tasks | Do not consume the allowance | Do not consume the Free allowance |
-| Price | Free | US$49 for 365 days; manual renewal |
-| Devices | Local use | One active computer per license |
-| Connection | No initial online activation | Online activation, then offline use supported |
+| **Windows** | **3.3.3** | **[Download Windows ZIP · 下载完整包](https://github.com/jo3sheng/yinghe-studio/releases/download/v3.3.3/YINGHE-Studio-3.3.3-Windows.zip)** |
+| **Mac · Apple Silicon** | **1.1.6** | **[Download Mac ZIP · 下载完整包](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-MAC.zip)** |
+| Mac PDF manuals / 使用手册 | 9 languages / 九种语言 | [Download manuals ZIP · 下载手册](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip) |
 
-[Purchase Pro](https://yinghe.org/buy.php) · [Recover a code](https://yinghe.org/account.php) · [Optional coffee support](https://yinghe.org/support.php)
+**Both software packages include FFmpeg and FFprobe. No separate installation is needed.**<br>
+两个软件包都已内置 FFmpeg、FFprobe，完整解压即可按说明使用。
 
-Purchases are handled on the official website. Available payment methods are shown at checkout. Coffee support does not buy or renew Pro. Expiry or online unbinding returns the app to Free without resetting recorded daily usage. To change computers, unbind the old computer online, then activate the original code on the new one. Contact support if the old computer is unavailable.
+- **Windows:** 64-bit Windows 10/11; .NET Framework 4.8 recommended.<br>建议 64 位 Windows 10/11 与 .NET Framework 4.8。
+- **Mac:** macOS 13 or later, Apple Silicon (M-series). This download does not support Intel Macs.<br>需要 macOS 13 及以上、Apple Silicon（M 系列芯片），不适用于 Intel Mac。
 
-## Mac 1.1.6 and manuals / Mac 软件与手册
+[Installation / 安装说明](docs/INSTALL.md) · [Windows release notes](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3) · [Mac release notes](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos) · [Checksums / 文件校验](#checksums--文件校验)
 
-[Mac application package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos) · [Download all nine PDF manuals](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip)
+> Choose a **software ZIP** above. GitHub's automatic **Source code** downloads contain this repository's documentation, not the application or its development source.<br>请下载上方的软件 ZIP。GitHub 自动显示的 **Source code** 压缩包只有本仓库文档，不是软件安装包，也不含映核开发源码。
 
-The owner-supplied Mac 1.1.6 ZIP includes the compiled application, FFmpeg/FFprobe and the same nine PDF guides. It does not require a separate FFmpeg installation. Guides are available in English, Simplified Chinese, Traditional Chinese, French, German, Italian, Spanish, Japanese and Korean. The app requires Apple Silicon (arm64) and macOS 13 or later. The earlier temporary Mac 1.0 preview is superseded.
+## What it does / 主要功能
 
-Mac 完整软件包内已附带 FFmpeg 和九语言 PDF 手册，也可单独下载手册 ZIP；原包未修改。Windows 与 Mac 分别编号，请按操作系统选择。
+- **Batch workflow / 批量处理** — import videos, choose settings, preview a short sample and export one output per input.<br>导入视频、统一设置、先看短预览，再逐个导出。
+- **Frame and appearance / 画面调整** — resize, crop, rotate, flip, adjust playback speed and color.<br>调整尺寸、裁剪、旋转、翻转、速度和色彩。
+- **Branding and audio / 标识与声音** — watermarks, picture in picture, intros/outros and background music.<br>添加水印、画中画、片头片尾与背景音乐。
+- **Local processing / 本地运行** — video processing runs on your computer; footage is not uploaded for rendering.<br>视频在自己的电脑上处理，渲染无需上传素材。
 
-## Help and feedback
+Controls and hardware encoding options vary by platform. See the [Windows guide](docs/USER-GUIDE.md) or the [Mac PDF manuals](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip) for the version you use.
 
-- [Installation](docs/INSTALL.md) · [User guide](docs/USER-GUIDE.md) · [Release notes](CHANGELOG.md)
-- [Report a bug](https://github.com/jo3sheng/yinghe-studio/issues/new/choose) for reproducible software problems.
-- Email **licenses@yinghe.org** for orders, activation, refunds and sensitive reports.
-- Please do not post registration codes, payment details, private videos or unredacted logs in public issues.
+<details>
+<summary><strong>View the Windows interface / 查看 Windows 软件界面</strong></summary>
 
-## Repository scope
+![Windows workspace example](assets/workspace-en.jpg)
 
-This is the official **product distribution and support repository**. It contains documentation, screenshots and release downloads. YINGHE Studio is proprietary software; desktop source, licensing services, credentials and internal test/deployment files are kept private. Third-party software retains its own licenses; see [third-party notices](THIRD-PARTY-NOTICES.md).
+![Windows color sliders](assets/color-sliders-en.png)
 
-## 中文说明
+Windows interface examples; these are not Mac screenshots. / 以上为 Windows 界面示例，并非 Mac 截图。
 
-**映核是本地批量视频处理软件。** 导入素材、设置参数、先看五秒预览，再顺序导出；每个输入独立生成一个输出，素材无需上传。
+</details>
 
-- **免费版**：下载即用，无需注册或领取注册码，每个本地自然日成功导出 10 个视频；预览、失败和取消不计数。
-- **专业版**：49 美元 / 365 天，不自动续费，有效期内不限每日导出数量，同时激活一台电脑。首次联网激活，之后支持离线使用。
-- **换机**：旧电脑联网解绑后恢复免费版，新电脑使用原注册码激活；到期或解绑不清零当日用量。
-- **咖啡支持**：完全自愿，与专业版购买分开，不增加额度或升级授权。
-- **Windows 下载**：前往 [Windows 3.3.3 Release](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3)，下载 **YINGHE-Studio-3.3.3-Windows.zip** 完整包及对应 .sha256 校验文件。FFmpeg 与配套 DLL 已包含，无需另行安装；请完整解压并保留 ffmpeg 文件夹。
-- **Mac**：[Mac 1.1.6 完整包](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos)已包含 FFmpeg、FFprobe 和九语言手册；要求 Apple Silicon 和 macOS 13 及以上，不适用于 Intel Mac。本次保持作者提供的软件包原样，未在 Mac 上重新运行验收。
+## Free & Pro / 免费版与专业版
 
-本仓库公开产品说明、截图、安装包及问题反馈，软件源码与授权后台保持私有。GitHub 自动生成的 Source code ZIP 仅为本仓库文档，不是软件安装包。
+| | Free / 免费版 | Pro / 专业版 |
+| --- | --- | --- |
+| Getting started / 开始使用 | No registration / 无需注册 | Activate a purchased code / 购买注册码后激活 |
+| Export allowance / 导出额度 | 10 successful full exports per local day / 每天成功导出 10 个 | No daily cap while licensed / 有效期内不限数量 |
+| Preview, failure, cancellation / 预览、失败、取消 | Do not count / 不计数 | Do not count toward the Free allowance / 不扣免费额度 |
+| Price / 价格 | Free / 免费 | **US$49 / 365 days** · manual renewal / 手动续期 |
+| Pro device limit / 专业版设备数 | — | One active computer / 同时激活一台电脑 |
 
-[官网](https://yinghe.org) · [购买专业版](https://yinghe.org/buy.php) · [请作者喝杯咖啡](https://yinghe.org/support.php) · 支持邮箱：licenses@yinghe.org
+**[View plans / 查看方案](https://yinghe.org/pricing.html)** · [Purchase Pro / 购买专业版](https://yinghe.org/buy.php) · [Recover a code / 找回注册码](https://yinghe.org/account.php)
+
+Pro requires internet for activation and device unbinding; later video processing supports offline use. To change computers, unbind the old one online, then activate the same code on the new one. Expiry or unbinding restores Free and retains recorded usage for that day.<br>
+专业版激活、解绑时需要联网，之后支持离线处理。换机时先在旧电脑联网解绑，再到新电脑激活；到期或解绑后恢复免费版，当日用量保留。
+
+Coffee support is voluntary and separate from Pro. / 咖啡支持完全自愿，不包含专业版授权。
+
+## Help / 使用帮助
+
+- **[Installation / 安装说明](docs/INSTALL.md)** · [Windows guide / Windows 使用指南](docs/USER-GUIDE.md) · [Mac manuals / Mac 手册](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip)
+- **[Release history / 更新记录](CHANGELOG.md)** · [Report a software problem / 反馈软件问题](https://github.com/jo3sheng/yinghe-studio/issues/new/choose)
+- **Orders, activation and private support / 订单、激活及私密问题：** [licenses@yinghe.org](mailto:licenses@yinghe.org)
+
+Do not post registration codes, payment details, private videos or unredacted logs in public issues.<br>
+请勿在公开反馈中上传注册码、付款资料、私人视频或未清理个人信息的日志。
+
+## Checksums / 文件校验
+
+[Windows SHA-256](https://github.com/jo3sheng/yinghe-studio/releases/download/v3.3.3/YINGHE-Studio-3.3.3-Windows.zip.sha256) · [Mac and manuals SHA-256](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/SHA256SUMS-macOS-1.1.6.txt)
+
+Checksums verify download integrity. They are not a code-signing certificate. / 校验值用于检查文件完整性，不等同于代码签名证书。
+
+## About this repository / 关于本仓库
+
+This is the official product download and support repository. YINGHE Studio is proprietary software; its application source and licensing backend are private. Public files here are documentation, screenshots and release downloads. [Third-party software retains its own licenses](THIRD-PARTY-NOTICES.md).
+
+本仓库用于官方软件下载、说明和问题反馈。映核应用源码与授权后台保持私有；第三方组件遵循各自许可证。
+
+**[yinghe.org](https://yinghe.org)**
