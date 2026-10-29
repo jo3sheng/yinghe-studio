@@ -1,0 +1,35 @@
+name: Bug report / 软件问题
+description: Report a reproducible software problem. Never post your license or payment data.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Orders and activation: email licenses@yinghe.org. Remove personal paths, registration codes and tokens from logs. 订单和激活问题请发邮件，勿公开注册码或个人信息。"
+  - type: input
+    id: version
+    attributes:
+      label: App version / 软件版本
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system and encoder / 系统及编码器
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior / 预期和实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Redacted error message / 已清理个人信息的错误信息
