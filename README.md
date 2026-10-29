@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/yinghe-mark.png" alt="YINGHE" width="72"></p>
+<p align="center"><a href="https://yinghe.org"><img src="assets/yinghe-icon-dark.png" alt="YINGHE Studio · 映核" width="88" height="88"></a></p>
 
 <h1 align="center">YINGHE Studio · 映核</h1>
 
