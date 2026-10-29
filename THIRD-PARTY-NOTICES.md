@@ -2,9 +2,11 @@
 
 YINGHE Studio invokes FFmpeg and FFprobe as separate programs. FFmpeg is a project of the FFmpeg developers; FFmpeg is a trademark of Fabrice Bellard. Third-party software retains its own copyright and licenses.
 
-## Windows application-only package
+## Owner-supplied Windows 3.3.3 complete package
 
-The Windows-App.zip asset does not include FFmpeg executables or libraries. Obtain a build through https://ffmpeg.org/download.html and retain its license and source materials.
+The complete Windows ZIP includes FFmpeg, FFprobe, FFplay and their DLLs. The archive preserves THIRD-PARTY-NOTICES.txt and licenses/GPL-3.0.txt, licenses/FFmpeg-BUILD.txt and licenses/FFmpeg-SOURCE.txt. The included FFmpeg reports n6.1.1-152-ge821e6c21d-20240531 and GPL-3.0-or-later.
+
+The owner's original distribution and source notice are retained. The source notice states that the upstream revision archive alone does not establish the complete corresponding source, vendor patches and dependency/build material. This upload check does not certify completion of those materials.
 
 ## Owner-supplied Mac 1.1.6 package
 

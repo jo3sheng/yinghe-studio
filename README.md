@@ -12,12 +12,12 @@ Import videos, configure adjustments, preview five seconds, then export the queu
 
 | Platform | Availability |
 | --- | --- |
-| Windows 10/11, 64-bit | [3.3.3 portable app package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3). Requires .NET Framework 4.8 and a separate FFmpeg/FFprobe installation. |
+| Windows 10/11, 64-bit | [3.3.3 complete portable package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3). Requires .NET Framework 4.8; FFmpeg/FFprobe and required DLLs are included. |
 | macOS 13+, Apple Silicon | [Mac 1.1.6 complete package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos) · [Nine-language PDF manuals](https://github.com/jo3sheng/yinghe-studio/releases/download/v1.1.6-macos/YINGHE-Studio-1.1.6-Manuals-9-Languages.zip). FFmpeg/FFprobe included. Not an Intel build. |
 
-Download the explicitly named **Windows-App.zip** asset. GitHub's automatic **Source code** archives contain these product documents, not the desktop app or its source.
+Download the explicitly named **YINGHE-Studio-3.3.3-Windows.zip** asset. GitHub's automatic **Source code** archives contain these product documents, not the desktop app or its source.
 
-The lightweight Windows package does **not** bundle FFmpeg. Follow the [installation guide](docs/INSTALL.md). The current executable is not Authenticode signed; Windows may show a publisher or reputation warning. Compare the download with the release's SHA-256 checksum. A matching checksum confirms integrity, not publisher trust.
+The complete Windows package includes FFmpeg and FFprobe. Extract the whole ZIP and keep the ffmpeg folder beside the app; a separate FFmpeg installation is not required. Follow the [installation guide](docs/INSTALL.md). The current executable is not Authenticode signed; Windows may show a publisher or reputation warning. Compare the download with the release's SHA-256 checksum. A matching checksum confirms integrity, not publisher trust.
 
 ## Features
 
@@ -73,7 +73,7 @@ This is the official **product distribution and support repository**. It contain
 - **专业版**：49 美元 / 365 天，不自动续费，有效期内不限每日导出数量，同时激活一台电脑。首次联网激活，之后支持离线使用。
 - **换机**：旧电脑联网解绑后恢复免费版，新电脑使用原注册码激活；到期或解绑不清零当日用量。
 - **咖啡支持**：完全自愿，与专业版购买分开，不增加额度或升级授权。
-- **Windows 下载**：前往 [Releases](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3)，下载名称含 Windows-App.zip 的软件本体包。需另行准备 FFmpeg 和 FFprobe，详见[安装说明](docs/INSTALL.md)。
+- **Windows 下载**：前往 [Windows 3.3.3 Release](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3)，下载 **YINGHE-Studio-3.3.3-Windows.zip** 完整包及对应 .sha256 校验文件。FFmpeg 与配套 DLL 已包含，无需另行安装；请完整解压并保留 ffmpeg 文件夹。
 - **Mac**：[Mac 1.1.6 完整包](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.1.6-macos)已包含 FFmpeg、FFprobe 和九语言手册；要求 Apple Silicon 和 macOS 13 及以上，不适用于 Intel Mac。本次保持作者提供的软件包原样，未在 Mac 上重新运行验收。
 
 本仓库公开产品说明、截图、安装包及问题反馈，软件源码与授权后台保持私有。GitHub 自动生成的 Source code ZIP 仅为本仓库文档，不是软件安装包。

@@ -25,3 +25,7 @@ Native SwiftUI app compiled and packaged on a Mac runner. Corrected resource bun
 - Separate nine-language PDF ZIP and SHA-256 checksums provided.
 - Requires macOS 13+ and Apple Silicon; the earlier temporary 1.0 preview is superseded.
 - No application source, backend or private configuration is published. This entry records distribution, not a claim that the app was re-tested on a Mac.
+
+## Windows 3.3.3 complete distribution update — 2026-10-29
+
+Published the owner-specified YINGHE-Studio-3.3.3-Windows.zip and its original .sha256 file unchanged. This complete package includes FFmpeg, FFprobe, required DLLs, user documentation and third-party notices/licenses, replacing the temporary Windows-App lightweight asset. This is a distribution update, not a claim of a new feature build or new full media regression. Mac remains a separate 1.1.6 download.

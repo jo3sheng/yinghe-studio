@@ -2,9 +2,9 @@
 
 ## Start / 开始使用
 
-Extract the entire ZIP into a writable folder, then run YINGHE-Studio.exe. Prepare FFmpeg and FFprobe as described in INSTALL.md. Windows 10/11, 64-bit, with .NET Framework 4.8 is recommended.
+Extract the entire ZIP into a writable folder, then run YINGHE-Studio.exe. Keep the ffmpeg folder beside the program. Windows 10/11, 64-bit, with .NET Framework 4.8 is recommended.
 
-请完整解压到可写入的文件夹，再运行 YINGHE-Studio.exe。请按 INSTALL.md 另行准备 FFmpeg 与 FFprobe。建议使用 64 位 Windows 10/11 和 .NET Framework 4.8。
+请完整解压到可写入的文件夹，再运行 YINGHE-Studio.exe。请保留同目录的 ffmpeg 文件夹。建议使用 64 位 Windows 10/11 和 .NET Framework 4.8。
 
 Drag videos into the queue, choose processing options, preview, then export. Output defaults to output beside the program. An output frame rate of 0 preserves source timing unless another effect requires adjustment.
 
@@ -55,4 +55,5 @@ If a GPU encoder fails, the app retries with CPU H.264. Support: licenses@yinghe
 
 显卡编码失败时会尝试 CPU H.264。支持邮箱：licenses@yinghe.org。反馈时请提供版本号和错误信息，不要公开银行卡资料、支付私钥或注册码。
 
-This lightweight public package does not bundle FFmpeg. Obtain FFmpeg/FFprobe separately through the official FFmpeg download page and preserve their licenses. See INSTALL.md.
+This package includes FFmpeg as a separate executable. See licenses/ and THIRD-PARTY-NOTICES.txt for its license and source information.
+
