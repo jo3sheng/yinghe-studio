@@ -1,6 +1,6 @@
 # YINGHE Studio · 映核
 
-**Local batch video processing for Windows.**
+**Local batch video processing for Windows, with a native macOS preview.**
 
 [Website](https://yinghe.org) · [Downloads](https://github.com/jo3sheng/yinghe-studio/releases) · [Free & Pro](https://yinghe.org/pricing.html) · [中文说明](#中文说明)
 
@@ -13,7 +13,7 @@ Import videos, configure adjustments, preview five seconds, then export the queu
 | Platform | Availability |
 | --- | --- |
 | Windows 10/11, 64-bit | [3.3.3 portable app package](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3). Requires .NET Framework 4.8 and a separate FFmpeg/FFprobe installation. |
-| macOS | Native edition in preparation. An installable, verified Mac release is not published here yet. |
+| macOS 13+, Apple Silicon | [Native app preview](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.0.0-macos-preview). FFmpeg/FFprobe installed separately; not Apple-notarized. Intel package not provided. |
 
 Download the explicitly named **Windows-App.zip** asset. GitHub's automatic **Source code** archives contain these product documents, not the desktop app or its source.
 
@@ -66,7 +66,7 @@ This is the official **product distribution and support repository**. It contain
 - **换机**：旧电脑联网解绑后恢复免费版，新电脑使用原注册码激活；到期或解绑不清零当日用量。
 - **咖啡支持**：完全自愿，与专业版购买分开，不增加额度或升级授权。
 - **Windows 下载**：前往 [Releases](https://github.com/jo3sheng/yinghe-studio/releases/tag/v3.3.3)，下载名称含 Windows-App.zip 的软件本体包。需另行准备 FFmpeg 和 FFprobe，详见[安装说明](docs/INSTALL.md)。
-- **Mac**：原生版本正在准备，当前未在这里发布已验证的可安装成品；不会把源码 ZIP 冒充安装包。
+- **Mac**：[Apple Silicon 原生预览版](https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.0.0-macos-preview)已提供编译后的应用。需 macOS 13 及以上及单独安装 FFmpeg/FFprobe；未经过 Apple 公证，尚未完成真机导出与激活验收，不含 Intel 版。
 
 本仓库公开产品说明、截图、安装包及问题反馈，软件源码与授权后台保持私有。GitHub 自动生成的 Source code ZIP 仅为本仓库文档，不是软件安装包。
 

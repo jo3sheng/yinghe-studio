@@ -26,4 +26,6 @@ Free works without registration. Pro activation requires internet; routine proce
 
 ## macOS
 
-An installable verified Mac package is not published yet. Please use the website or Releases page for future availability. The private Mac source archive is not a customer download.
+An Apple Silicon (arm64) native preview is available at https://github.com/jo3sheng/yinghe-studio/releases/tag/v1.0.0-macos-preview. Requires macOS 13 or later. Download and extract the named macOS-arm64-preview.zip to obtain YINGHE Studio.app. Install FFmpeg and FFprobe separately; existing Homebrew users can use `brew install ffmpeg`. This build passed compilation, package checks and a basic startup check. It is ad-hoc signed, not Apple Developer ID signed or notarized. macOS may block opening it. Full interactive export and activation acceptance is pending; no Intel package is included. The private source archive is not a customer download.
+
+Mac 预览版需 Apple Silicon、macOS 13 及以上，另行准备 FFmpeg 与 FFprobe。下载的是编译后的 .app，不是源码。未经过 Apple 公证，真机导出和激活流程尚待完整验收。

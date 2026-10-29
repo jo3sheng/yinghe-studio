@@ -13,3 +13,7 @@
 新增调色滑块与数值双向同步、曝光、高光、阴影、自然饱和度、绿／洋红控制及多个预设；支持单项和全部重置，五秒调色预览不扣导出额度。
 
 The public lightweight package contains the application and user documents. FFmpeg/FFprobe are installed separately. macOS release availability is tracked separately.
+
+## macOS 1.0 preview — Apple Silicon · 2026-10-29
+
+Native SwiftUI app compiled and packaged on a Mac runner. Corrected resource bundle placement; package signature layout and basic startup checks passed. FFmpeg/FFprobe are separate dependencies. This is an unnotarized arm64 preview; full interactive media and activation acceptance is pending. No application source is published.
